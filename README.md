@@ -1,6 +1,8 @@
 # e-dream client releases
 
-## procedure
+see the [releases](https://github.com/e-dream-ai/public/releases).
+
+## procedure to add a release
 
 * In the client repository, tag the code and build the release images (zip files).
 
