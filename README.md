@@ -1,7 +1,5 @@
 # e-dream client releases
 
-See [e-dream.ai](https://e-dream.ai).
-
 ## procedure
 
 * In the client repository, tag the code and build the release images (zip files).
