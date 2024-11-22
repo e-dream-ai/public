@@ -15,3 +15,6 @@ see the [releases](https://github.com/e-dream-ai/public/releases).
 * Update the link to the current release in the *main branch* of the
   frontend repository by editing `APP_VERSION` in
   `src/components/pages/install/install.page.tsx`
+
+* Push and that's it, Github and Netlify build automation should make
+  the change live in a few minutes.
