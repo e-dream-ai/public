@@ -10,7 +10,9 @@ see the [releases](https://github.com/e-dream-ai/public/releases).
 * In this public repository, apply the same tag.
 
 * Make a release with the github button, write the notes, and upload
-  the images.
+  the images. If this is a pre-release, click that box to mark that,
+  and you are done. Otherwise, continue with linking as described
+  below.
 
 * Update the link to the current release in the *main branch* of the
   frontend repository by editing `APP_VERSION` in
