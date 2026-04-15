@@ -1,22 +1,18 @@
-# e-dream client releases
+# e-dream-ai/public — DEPRECATED
 
-see the [releases](https://github.com/e-dream-ai/public/releases).
+> [!WARNING]
+> **This repository is deprecated and no longer in use.**
+>
+> It used to host client release artifacts for download, but that workflow has moved elsewhere and nothing in the Infinidream project points at this repo anymore. Do not publish new releases here. Do not link to it from other repos or from the website.
 
-## procedure to make a release
+## Historical purpose
 
-* In the client repository, tag the code and build the release images
-  (zip files).
+This repository was previously used to publish e-dream client release images (zip files) via GitHub Releases. The old procedure was:
 
-* In this public repository, apply the same tag.
+1. In the `client` repository, tag the code and build the release images (zip files).
+2. In this repository, apply the same tag.
+3. Create a GitHub Release, write notes, and upload the images. Mark as pre-release if applicable.
+4. Update `APP_VERSION` in `frontend/src/components/pages/install/install.page.tsx` on the main branch to point at the new release.
+5. Push — GitHub and Netlify build automation would then make the change live.
 
-* Make a release with the github button, write the notes, and upload
-  the images. If this is a pre-release, click that box to mark that,
-  and you are done. Otherwise, continue with linking as described
-  below.
-
-* Update the link to the current release in the *main branch* of the
-  frontend repository by editing `APP_VERSION` in
-  `src/components/pages/install/install.page.tsx`
-
-* Push and that's it, Github and Netlify build automation should make
-  the change live in a few minutes.
+That flow is no longer active. The historical [releases](https://github.com/e-dream-ai/public/releases) remain for archival purposes only.
